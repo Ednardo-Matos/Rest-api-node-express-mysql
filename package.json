@@ -1,0 +1,29 @@
+{
+  "name": "rest-api-node-express-mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ednardo-Matos/Rest-api-node-express-mysql.git"
+  },
+  "author": "Ednardo Matos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ednardo-Matos/Rest-api-node-express-mysql/issues"
+  },
+  "homepage": "https://github.com/Ednardo-Matos/Rest-api-node-express-mysql#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "consign": "^0.1.6",
+    "express": "^4.17.3",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
